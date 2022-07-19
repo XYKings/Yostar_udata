@@ -1,0 +1,6 @@
+framework module YoSDKUDataKit {
+  umbrella header "YoSDKUDataKit.h"
+
+  export *
+  module * { export * }
+}
