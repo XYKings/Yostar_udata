@@ -22,7 +22,7 @@ pod 'YoStar_UData'
 
 ## Author
 
-xueye08@foxmail.com, ye.xue@yo-star.com
+xueye, ye.xue@yo-star.com
 
 ## License
 
