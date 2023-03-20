@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 typedef void(^YoUDataInitFailed)(NSInteger code, NSString * _Nullable msg);
 typedef void(^YoUDataInitSuccess)(void);
-static NSString * const YoUDataSDKVersion = @"0.0.1";
+static NSString * const YoUDataSDKVersion = @"1.8.0";
 UIKIT_EXTERN NSString * const NotNeedRequestedDeviceIDKey;
 @interface YoUDataManager : NSObject
 @property (nonatomic, copy) NSString *uDataBaseURL;
@@ -24,6 +24,7 @@ UIKIT_EXTERN NSString * const NotNeedRequestedDeviceIDKey;
 @property (nonatomic, assign) BOOL canTrack;
 @property (nonatomic, strong) YoUDataInitFailed failedCallback;
 @property (nonatomic, strong) YoUDataInitSuccess successCallback;
+
 + (instancetype)shareManager;
 
 - (NSDictionary *)readPropertyData;

@@ -33,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
  @param userID 用户id 不可为空
  */
 - (void)uploadUserInfo:(NSString * _Nonnull)userID;
+
+
+- (void)deleteTrackDataForEvent:(NSString *)key;
 @end
 
 NS_ASSUME_NONNULL_END
